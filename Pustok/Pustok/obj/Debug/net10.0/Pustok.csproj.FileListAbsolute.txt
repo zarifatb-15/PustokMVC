@@ -44,3 +44,4 @@
 /Users/zarifababayeva/Desktop/pustokmvc/Pustok/Pustok/obj/Debug/net10.0/Pustok.pdb
 /Users/zarifababayeva/Desktop/pustokmvc/Pustok/Pustok/obj/Debug/net10.0/Pustok.genruntimeconfig.cache
 /Users/zarifababayeva/Desktop/pustokmvc/Pustok/Pustok/obj/Debug/net10.0/ref/Pustok.dll
+/Users/zarifababayeva/Desktop/pustokmvc/Pustok/Pustok/obj/Debug/net10.0/Pustok.csproj.AssemblyReference.cache
