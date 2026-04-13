@@ -1,6 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Pustok.Models;
+
 namespace Pustok.Data.Configurations;
 
-public class BookTagConfiguration
+public class BookTagConfiguration:IEntityTypeConfiguration<BookTag>
 {
-    
+    public void Configure(EntityTypeBuilder<BookTag> builder)
+    {
+        builder.HasKey(bt => new { bt.BookId, bt.TagId });
+    }
 }
