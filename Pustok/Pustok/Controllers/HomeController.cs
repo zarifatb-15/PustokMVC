@@ -27,7 +27,7 @@ public class HomeController(PustokDbContext dbContext) : Controller
             DiscountedBooks = dbContext.Books
                 .Include(x => x.Author)
                 .Include(x=>x.BookImages)
-                .Where(x=>x.DiscountPercent>0).ToList()
+                .Where(x=>x.DiscountPercentage>0).ToList()
         };
         return View(homeVm);
     }
